@@ -13,7 +13,7 @@ function showLogin() {
 
 function register(){
 
-fetch("http://localhost:8080/auth/register",{
+fetch("/auth/register",{
 
 method:"POST",
 
@@ -40,7 +40,7 @@ password:document.getElementById("password").value
 
 function login(){
 
-fetch("http://localhost:8080/auth/login",{
+fetch("/auth/login",{
 
 method:"POST",
 
