@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Authentication Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Authentication Project</h2>
+
+    <div class="top-buttons">
+        <button onclick="showRegister()">Register</button>
+        <button onclick="showLogin()">Login</button>
+    </div>
+
+    <div id="registerForm">
+        <h3>Registration</h3>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register()">Register</button>
+    </div>
+
+    <div id="loginForm" style="display:none;">
+        <h3>Login</h3>
+        <input type="text" id="loginUsername" placeholder="Username">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
